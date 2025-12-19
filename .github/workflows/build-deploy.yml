@@ -43,6 +43,6 @@ jobs:
             sudo docker stop my-running-app || true
             sudo docker rm my-running-app || true
             
-            sudo docker run -d -p 80:5006 --name my-running-app ${{ secrets.DOCKER_USERNAME }}/node-sample-app:${{ github.sha }}
+            sudo docker run -d -p 8000:5006 --name my-node-app ${{ secrets.DOCKER_USERNAME }}/node-sample-app:${{ github.sha }}
             
             sudo docker image prune -f
