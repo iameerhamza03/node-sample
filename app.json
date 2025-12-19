@@ -1,5 +1,5 @@
 {
-  "name": "Run on BEAST!: Node.js",
+  "name": "Run on Heruku!: Node.js",
   "description": "A barebones Node.js app using Express 4",
   "repository": "https://github.com/heroku/nodejs-getting-started",
   "keywords": ["node", "express", "heroku"],
